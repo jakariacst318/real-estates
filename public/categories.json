@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "name": "Hospitals"
+    },
+    {
+        "id": "2",
+        "name": "schools"
+    },
+    {
+        "id": "3",
+        "name": "religious facilities"
+    },
+    {
+        "id": "4",
+        "name": "transportation terminals"
+    },
+    {
+        "id": "5",
+        "name": "convention centers"
+    },
+    {
+        "id": "6",
+        "name": " art galleries"
+    },
+    {
+        "id": "7",
+        "name": "Culture"
+    },
+    {
+        "id": "8",
+        "name": "Arts"
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Modern Family Home",
+        "segment_name": "Nolan Gould  Aubrey Anderson-Emmons ",
+        "description": "A beautiful modern family home located in the suburbs with a spacious backyard.",
+        "image": "https://img.freepik.com/free-photo/friends-arguing-while-man-talks-phone_23-2148560744.jpg?t=st=1717526540~exp=1717530140~hmac=26eb058f85ead04a5fdd0bd678b81db9cab6ae985bf857b37da4a0b53be9d0ef&w=740",
+        "price": "$500,000",
+        "status": "sale",
+        "area": "2500 sq ft",
+        "location": "123 Maple Street, Springfield",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "garage",
+            "garden"
+        ],
+        "view_property": "View Property"
+    },
+    {
+        "id": 2,
+        "estate_title": "Luxury Apartment",
+        "segment_name": "Redfin Rank the Most Competitive",
+        "description": "A high-end luxury apartment with stunning city views and top-notch amenities.",
+        "image": "https://images.unsplash.com/photo-1632743441209-8a09b8a37e25?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "$1,200,000",
+        "status": "sale",
+        "area": "1800 sq ft",
+        "location": "456 Elm Street, Metropolis",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "gym",
+            "rooftop terrace"
+        ],
+        "view_property": "View Property"
+    },
+    {
+        "id": 3,
+        "estate_title": "Cozy Cottage",
+        "segment_name": "happiness",
+        "description": "A quaint and cozy cottage in a quiet neighborhood, perfect for small families.",
+        "image": "https://plus.unsplash.com/premium_photo-1661658163124-563dece2442c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "$300,000",
+        "status": "sale",
+        "area": "1200 sq ft",
+        "location": "789 Pine Street, Greenville",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "fireplace",
+            "garden",
+            "patio"
+        ],
+        "view_property": "View Property"
+    },
+    {
+        "id": 4,
+        "estate_title": "Urban Loft",
+        "segment_name": "Night City",
+        "description": "A stylish urban loft in the heart of the city, featuring modern design and open spaces.",
+        "image": "https://images.unsplash.com/photo-1635604864987-fedee06ebffe?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "$850,000",
+        "status": "sale",
+        "area": "1500 sq ft",
+        "location": "321 Oak Street, Downtown",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "gym",
+            "balcony",
+            "storage"
+        ],
+        "view_property": "View Property"
+    },
+    {
+        "id": 5,
+        "estate_title": "Beachfront Villa",
+        "segment_name": "Guest House",
+        "description": "A luxurious beachfront villa with direct access to the beach and stunning ocean views.",
+        "image": "https://images.unsplash.com/photo-1582610191340-fa501e6e5040?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "$2,500,000",
+        "status": "sale",
+        "area": "3000 sq ft",
+        "location": "123 Seaside Avenue, Oceanview",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen",
+            "private beach",
+            "garage"
+        ],
+        "view_property": "View Property"
+    },
+    {
+        "id": 6,
+        "estate_title": "Country Estate",
+        "segment_name": "A place to talk",
+        "description": "A sprawling country estate with extensive grounds and classic architecture.",
+        "image": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "$1,750,000",
+        "status": "sale",
+        "area": "5000 sq ft",
+        "location": "456 Country Road, Hilltop",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "stables",
+            "garden",
+            "swimming pool"
+        ],
+        "view_property": "View Property"
+    }
+]
