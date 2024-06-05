@@ -1,13 +1,16 @@
 import PropTypes from 'prop-types';
 import { FaRegSquare } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Estates = ({ estates }) => {
 
-    const { estate_title, segment_name, image ,area,price} = estates;
+    const {id, estate_title, segment_name, image, area, price } = estates;
+
 
     return (
-        <div>            
+        <div>
             <div>
+
                 <div className="card card-compact w-80 bg-base-100 shadow-xl">
                     <figure><img src={image} alt="image" /></figure>
                     <div className="card-body">
@@ -19,7 +22,7 @@ const Estates = ({ estates }) => {
                             <p className=''>{price}</p>
                         </div>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Details</button>
+                            <button className="btn btn-primary"> <Link to={`/estates/${id}`}>View Property</Link></button>
                         </div>
                     </div>
                 </div>
@@ -33,3 +36,4 @@ export default Estates;
 Estates.propTypes = {
     children: PropTypes.node
 }
+
