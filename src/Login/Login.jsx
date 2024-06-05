@@ -3,8 +3,11 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../providers/AuthProvider";
 import Navbar from "../components/Navbar/Navbar";
 
+
 const Login = () => {
-    const { sigIn } = useContext(AuthContext)
+    const { sigIn, googleLogin, githubLogin } = useContext(AuthContext)
+
+
     const location = useLocation()
     const navigate = useNavigate()
 
@@ -22,7 +25,6 @@ const Login = () => {
                 console.log(result.user)
                 e.target.reset()
 
-                // navigate after login
                 navigate(location?.state ? location.state : '/');
 
             })
@@ -59,9 +61,15 @@ const Login = () => {
                             </div>
 
                             <div className="form-control mt-6">
-                                    <button className="btn btn-primary w-full">Login</button>
+                                <button className="btn btn-primary w-full">Login</button>
                             </div>
                         </form>
+                       <div className="flex gap-x-4 ">
+                       <button onClick={() =>googleLogin()} className="btn bg-cyan-500">google</button>
+
+                       <button onClick={() =>githubLogin()} className="btn bg-cyan-500">github</button>
+                       </div>
+
                         <p className="text-center pb-5">Don not have an account <Link to='/register'><span className="text-blue-600 font-medium">Register</span></Link> </p>
                     </div>
                 </div>

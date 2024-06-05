@@ -20,7 +20,8 @@ const router = createBrowserRouter([
             },
             {
                 path: '/estates/:id',
-                element: <PrivetRoute> <Estate></Estate></PrivetRoute>
+                element: <PrivetRoute> <Estate></Estate></PrivetRoute>,
+                loader: () => fetch('../estates.json')
             },
             {
                 path: '/login',

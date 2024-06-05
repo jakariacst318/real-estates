@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Estates = ({ estates }) => {
 
-    const {id, estate_title, segment_name, image, area, price } = estates;
+    const { id, estate_title, segment_name, image, area, price } = estates;
 
 
     return (
@@ -26,6 +26,7 @@ const Estates = ({ estates }) => {
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     );

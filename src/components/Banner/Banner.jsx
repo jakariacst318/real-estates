@@ -39,7 +39,7 @@ const Banner = () => {
                 </div>
             </div>
             
-            <div className="absolute bottom-1/3 left-[200px] text-white text-center space-y-3">
+            <div className="absolute bottom-1/3 left-[130px] text-white text-center space-y-3">
                 <h2 className="text-5xl font-semibold">BEST PLACE TO FIND HOME</h2>
                 <p className="text-xl">Allow us to guide you through the innovative stress free approach in finding your dream Properties.</p>
                 <button className="btn btn-primary uppercase"> get started now</button>

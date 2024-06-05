@@ -7,7 +7,6 @@ import Navbar from "../Navbar/Navbar";
 import PropTypes from 'prop-types';
 
 const Home = () => {
-
     const estates = useLoaderData()
     console.log(estates)
     return (
@@ -32,6 +31,7 @@ const Home = () => {
                         estates.map(estate => <Estates key={estate.id}
                             estates={estate}></Estates>)
                     }
+                    
                 </div>
             </div>
             <Footer></Footer>
