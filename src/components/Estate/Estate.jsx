@@ -1,17 +1,22 @@
-
+/* 
 import Banner from "../Banner/Banner";
+import Details from "../../Details/Details";
 
 const Estate = () => {
-    // const {segment_name,estate_title} = estates
+    
+    
     return (
         <div>
             <Banner></Banner>
-            <h2 className="text-3xl">details:</h2>
-            {/* <p>{estate_title}</p> */}
-            {/* <p>{segment_name}</p> */}
-            
+            <h2 className="text-3xl">details:</h2>            
+
+            {
+                details.map(estate => <Details key={estate.id}
+                    details={estate}></Details>)
+            }
+
         </div>
     );
 };
 
-export default Estate;
+export default Estate; */

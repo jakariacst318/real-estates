@@ -4,8 +4,9 @@ import Home from "../Home/Home";
 import Login from "../../Login/Login";
 import Register from "../Register/Register";
 import ErrorPage from "../ErrorPage/ErrorPage";
-import Estate from "../Estate/Estate";
+// import Estate from "../Estate/Estate";
 import PrivetRoute from "../PrivetRoute/PrivetRoute";
+import Details from "../../Details/Details";
 
 const router = createBrowserRouter([
     {
@@ -18,9 +19,14 @@ const router = createBrowserRouter([
                 element: <Home></Home>,
                 loader: () => fetch('estates.json')
             },
+            // {
+            //     path: '/estates/:id',
+            //     element: <PrivetRoute> <Estate></Estate></PrivetRoute>,
+            //     loader: () => fetch('../estates.json')
+            // },
             {
                 path: '/estates/:id',
-                element: <PrivetRoute> <Estate></Estate></PrivetRoute>,
+                element: <PrivetRoute> <Details></Details></PrivetRoute>,
                 loader: () => fetch('../estates.json')
             },
             {
