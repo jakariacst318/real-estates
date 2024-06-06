@@ -51,6 +51,7 @@ const Navbar = () => {
                                 <button className="btn">Login</button>
                             </Link>
                     }
+                    
                 </div>
             </div>
         </div>

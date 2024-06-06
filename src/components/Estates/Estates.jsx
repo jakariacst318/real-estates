@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaRegSquare } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-
 const Estates = ({ estates }) => {
 
     const { id, estate_title, segment_name, image, area, price } = estates;

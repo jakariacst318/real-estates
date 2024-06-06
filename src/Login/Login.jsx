@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../providers/AuthProvider";
 import Navbar from "../components/Navbar/Navbar";
@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar/Navbar";
 
 const Login = () => {
     const { sigIn, googleLogin, githubLogin } = useContext(AuthContext)
-
+    const [loginError , setLoginError] = useState('');
 
     const location = useLocation()
     const navigate = useNavigate()
@@ -19,6 +19,7 @@ const Login = () => {
         const email = form.get('email')
         const password = form.get('password')
         console.log(email, password)
+        setLoginError('')
 
         sigIn(email, password)
             .then(result => {
@@ -30,6 +31,7 @@ const Login = () => {
             })
             .catch(error => {
                 console.error(error)
+                setLoginError(error.message)
             })
     }
     return (
@@ -69,7 +71,10 @@ const Login = () => {
 
                        <button onClick={() =>githubLogin()} className="btn bg-cyan-500">github</button>
                        </div>
+                       {
+                            loginError && <h5 className="text-red-500">{loginError}</h5>
 
+                        }
                         <p className="text-center pb-5">Don not have an account <Link to='/register'><span className="text-blue-600 font-medium">Register</span></Link> </p>
                     </div>
                 </div>
