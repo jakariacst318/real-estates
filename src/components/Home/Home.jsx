@@ -16,7 +16,7 @@ const Home = () => {
 
             <div className="font-semibold text-center mb-10">
                 <h2 className="text-3xl ">Featured Properties </h2>
-                <p>   Handpicked properties by our team </p>
+                <p className="text-gray-400 mt-1">Handpicked properties by our team </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

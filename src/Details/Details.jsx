@@ -12,8 +12,8 @@ const Details = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="grid md:grid-cols-3 gap-5 ">
-                <div className="md:col-span-2">
+            <div className="grid md:grid-cols-3  gap-5 ">
+                <div className="md:col-span-2 ">
                     <img src={image} alt="" />
                     <p className="text-slate-600 py-5 text-lg">{description}</p>
                 </div>
